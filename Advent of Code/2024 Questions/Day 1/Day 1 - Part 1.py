@@ -42,7 +42,7 @@ Your actual left and right lists contain many location IDs. What is the total di
 import pandas as pd
 
 # Accessing and reading file
-data_file_path = "Advent of Code/2024 Questions/Question 1/data.xlsx"
+data_file_path = "Advent of Code/2024 Questions/Day 1/data.xlsx"
 
 data = pd.read_excel(data_file_path, header=None) # Making header none so that it doesnt skip the first entry
 print(data.head())
